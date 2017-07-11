@@ -1,7 +1,14 @@
+GIT
+  remote: /Users/kgardiner/projects/krutisfood/bundler-test-gem1/.git
+  revision: beff3fdaac2d1b1b1ead2f8131034b0bcd5ba25d
+  specs:
+    bundler-test-gem1 (0.0.2)
+      git (~> 1.2)
+
 PATH
   remote: .
   specs:
-    bundler-test-gem2 (0.0.2)
+    bundler-test-gem2 (0.0.4)
       git (~> 1.2)
 
 GEM
@@ -13,6 +20,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler-test-gem1!
   bundler-test-gem2!
 
 BUNDLED WITH
