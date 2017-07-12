@@ -1,6 +1,6 @@
 GIT
-  remote: /Users/kgardiner/projects/krutisfood/bundler-test-gem1/.git
-  revision: beff3fdaac2d1b1b1ead2f8131034b0bcd5ba25d
+  remote: https://github.com/krutisfood/bundler-test-gem1
+  revision: ae25acb875d87d7516a51dfc46d37d70a55c20dd
   specs:
     bundler-test-gem1 (0.0.2)
       git (~> 1.2)
